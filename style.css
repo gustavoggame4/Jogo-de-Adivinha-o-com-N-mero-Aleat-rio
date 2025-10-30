@@ -1,0 +1,64 @@
+
+html {
+  background: linear-gradient(180deg, #4f4f4f, #000);
+  height: 100%;
+  font-family: "Segoe UI", sans-serif;
+  color: #222;
+}
+
+body {
+  width: 450px;
+  margin: 50px auto;
+  background-color: #fdfdfd;
+  padding: 30px 40px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+
+
+input {
+  width: 70%;
+  margin: 8px 0 15px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 2px solid #666;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  background: linear-gradient(to right, #555, #000);
+  color: white;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #000, #555);
+  transform: scale(1.1);
+}
+
+
+
+
